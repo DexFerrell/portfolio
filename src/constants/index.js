@@ -34,3 +34,9 @@ export const logos = [
 
   
 ];
+
+export const stats = [
+  {title:"Client Products Developed", amount:"10+"},
+  {title:"Completed/ Deployed Projects", amount:"25+"},
+  {title:"Years of Experience", amount:"2+"},
+]
