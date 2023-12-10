@@ -40,3 +40,11 @@ export const stats = [
   {title:"Completed/ Deployed Projects", amount:"25+"},
   {title:"Years of Experience", amount:"2+"},
 ]
+
+export const projects = [
+  {title:"Landing Page", description:"The following is a landing page for a hypothetical sneaker shopping site. It was developed with javaScript, React, and Tailwind. A key feature of this app is an image selector that displays a selectd image based on user interaction. Using React to render the correct image upon clicks.Tailwind is used throught the project and allowed me to develope on of my most in depth footers yet.", image:"dexKicks1.JPG", link:"https://github.com/DexFerrell/Tailwnd-react-base.git"},
+
+  {title:"RooLand", description:"RooLand is an excercise project completed almost completely in vanilla JS to push myself and reinforce my fundamentals. It is a full-stack application using NodeJS, Mongoose, and MongoDB. It includes a hardcoded carousel on the home page, with many back-end functions on the item page. The item page allows a user to create 'todo' items and store that item in the data base. the get request upon page load retrieves the items from the data base and renders them to the DOM using EJS. There is also an update feature that populates a field and updates the database upon submission." , image:"rooland1.JPG", link:"https://github.com/DexFerrell/my-fullstack-template.git"},
+
+  {title:"This Website!!!", description:"This website was Coded from scratch by yours-truly. All design choices are my own... unless you dont like them. If thats the case then someone else is responsible. :) If you would like to see more of my work my github is linked in the about section!", image:"git.JPG", link:"https://github.com/DexFerrell"},
+]

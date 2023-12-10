@@ -2,7 +2,7 @@ import { aboutCards, languages, stats } from "../constants"
 
 const About = () => {
   return (
-    <section id="about" className="max-container mt-10 flex justify-between max-md:flex-col p-[3rem] text-white bg-slate-400 rounded-lg shadow-xl">
+    <section id="about" className="max-container mt-[10rem] flex justify-between max-md:flex-col p-[3rem] text-white bg-slate-400 rounded-lg shadow-xl">
       
         <div className="w-1/2 max-md:w-full rounded-lg p-3 object-contain shadow-xl">
 
@@ -15,7 +15,7 @@ const About = () => {
           
             <ul className="flex justify-around  flex-wrap text-lg font-Nunito font-semibold list-disc mx-10">
               {languages.map((lang) =>(
-                <li className="m-4">{lang.language}</li>
+                <li key={lang.language} className="m-4">{lang.language}</li>
               ))}
             </ul>
           
@@ -26,7 +26,7 @@ const About = () => {
 
           <div  className="flex justify-between w-full">
             {stats.map((stat) => (
-              <div  className="flex flex-col w-1/3 p-2 text-left">
+              <div key={stat.title} className="flex flex-col w-1/3 p-2 text-left">
                 <h1 className=" text-[4rem] max-sm:text-[3rem] font-Nunitosans font-bold text-black">{stat.amount}</h1>
                 <p className="text-xl font-Nunito font-bold text-green-400">{stat.title}</p>
               </div>
