@@ -24,7 +24,10 @@ const Hero = () => {
         </div>
         
         <div className='flex mt-6 text-white' >
-          <button href="" className='flex justify-center items-center gap-2 px-7 py-4  font-Nunito font-bold text-lg leading-none bg-slate-400  hover:bg-slate-600 rounded-lg shadow-xl mr-2'>Resume</button>
+          <a href="resume.pdf" target="_blank">
+            <button className='flex justify-center items-center gap-2 px-7 py-4  font-Nunito font-bold text-lg leading-none bg-slate-400  hover:bg-slate-600 rounded-lg shadow-xl mr-2'>Resume</button>
+          </a>
+  
           <button className='flex justify-center items-center gap-2 px-7 py-4 font-Nunito font-bold text-lg leading-none bg-green-400 hover:bg-green-600 rounded-lg shadow-xl'>Email Me</button>
         </div>
       </div>

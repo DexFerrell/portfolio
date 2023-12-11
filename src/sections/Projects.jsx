@@ -16,12 +16,14 @@ const Projects = () => {
           <div key={project.title} className='w-full p-4 flex justify-between max-md:flex-col shadow-lg rounded-lg mb-6'>
 
             <div className="w-1/2 max-md:w-full flex flex-col justify-between">
+              
               <h1 className='text-3xl font-Nunito font-extrabold text-black'>Project: {project.title}</h1>
-              <p className="text-lg font-Nunito font-semibold text-c p-">{project.description}</p>
+              <p className="text-lg font-Nunito font-semibold">{project.description}</p>
               <a href={project.link} target="_blank" className="flex">
                 <img className=" w-9 rounded-lg object-contain" src="git3.png" alt="logo" />
-                <h4 className="text-2xl font-Nunito font-bold text-green-400 p-3">GitHub Repository</h4>
+                <h4 className="text-2xl font-Nunito font-bold text-green-400 hover:text-green-500 p-3">GitHub Repository</h4>
               </a>
+
             </div>
             <div className="flex max-contain object-contain w-1/2 max-md:w-full justify-end max-md:justify-center">
               <img className="rounded-lg shadow-xl max-w-md object-contain w-[60%]" src={project.image} alt="Landing" />
@@ -30,6 +32,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+
 
     </section>
   )

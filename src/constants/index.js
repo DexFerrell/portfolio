@@ -31,7 +31,6 @@ export const logos = [
   {logo: "TailWind", src:"tailwind.png"},
   {logo: "next", src:"nextjs.png"},
   {logo: "html", src:"supabase1.png"},
-
   
 ];
 
