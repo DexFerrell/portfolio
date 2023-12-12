@@ -2,9 +2,9 @@ import { aboutCards, languages, stats } from "../constants"
 
 const About = () => {
   return (
-    <section id="about" className="max-container mt-[10rem] flex justify-between max-md:flex-col p-[3rem] text-white bg-slate-400 rounded-lg shadow-xl">
+    <section id="about" className="max-container mt-[10rem] flex justify-between max-lg:flex-col p-[3rem] max-md:p-3 text-white bg-slate-400 rounded-lg shadow-xl">
       
-        <div className="w-1/2 max-md:w-full rounded-lg p-3 object-contain shadow-xl">
+        <div className="w-1/2 max-lg:w-full rounded-lg p-3 object-contain shadow-xl">
 
           <h2 className="font-Nunitosans font-bold text-xl text-green-400">| About</h2>
           
@@ -13,7 +13,7 @@ const About = () => {
 
           <h4 className="text-xl font-Nunito font-medium mt-5">Languages:</h4>
           
-            <ul className="flex justify-around  flex-wrap text-lg font-Nunito font-semibold list-disc mx-10">
+            <ul className="flex justify-around  flex-wrap text-lg font-Nunito font-semibold list-disc mx-10 max-md:mx-2">
               {languages.map((lang) =>(
                 <li key={lang.language} className="m-4">{lang.language}</li>
               ))}
@@ -22,7 +22,7 @@ const About = () => {
           
 
         </div>
-        <div className=" items-center w-1/2 max-md:w-full rounded-lg p-1 shadow-xl object-contain">
+        <div className=" items-center w-1/2 max-lg:w-full rounded-lg p-1 shadow-xl object-contain">
 
           <div  className="flex justify-between w-full">
             {stats.map((stat) => (
