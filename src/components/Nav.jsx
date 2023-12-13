@@ -24,7 +24,7 @@ const Nav = () => {
             <img className=" w-7 rounded-lg object-contain" src="git3.png" alt="logo" />
             </a>
             <a href="https://www.linkedin.com/in/dex-ferrell/" target="_blank" className="mx-2">
-            <img className=" w-8 rounded-lg object-contain" src="lnkd.png" alt="logo" />
+            <img className=" w-7 rounded-lg object-contain" src="linkeed.png" alt="logo" />
             </a>
           </div>
         

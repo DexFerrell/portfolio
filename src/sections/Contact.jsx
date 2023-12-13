@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="flex flex-wrap justify-center mx-5 shadow-xl items-center bg-slate-400 rounded-lg pb-20">
+    <div className="flex flex-wrap justify-center  shadow-xl items-center bg-slate-400 rounded-lg pb-20 max-container">
       <div className="w-full flex items-center justify-between">
         <h1 className=" p-3 text-[3rem] font-Nunito font-bold text-white">Contact Me:</h1>
        
