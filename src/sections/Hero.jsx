@@ -14,7 +14,7 @@ const Hero = () => {
           <h3 className="font-Nunitosans font-bold text-3xl">Full-Stack Web Developer</h3>
           <div className="flex max-contain justify-between w-[90%]">
             {logos.map((logo) =>(
-              <div key={logo.logo} className="flex justify-around items-center w-11 rounded-lg p-1 shadow-lg bg-white object-contain">
+              <div key={logo.logo} className="flex justify-around items-center w-12 rounded-lg p-1 shadow-lg bg-white object-contain">
                 <img src={logo.src} alt={logo.logo} className="object-contain" />
                 
               </div>
