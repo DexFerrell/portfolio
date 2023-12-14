@@ -8,7 +8,7 @@ const Projects = () => {
 
         <div className=' w-full p-4'>
 
-          <h1 className='text-4xl font-Nunitosans font-bold text-green-400'>Recent Projects</h1>
+          <h1 className='text-4xl font-Nunitosans font-bold text-blue-400'>Recent Projects</h1>
           <h2 className='font-Nunito text-xl'> Below is a collection of 3 recent projects that I feel showcase my wide range of capabilities.</h2>
 
         </div>
@@ -21,7 +21,7 @@ const Projects = () => {
               <p className="text-lg font-Nunito font-semibold">{project.description}</p>
               <a href={project.link} target="_blank" className="flex">
                 <img className=" w-9 rounded-lg object-contain" src="git3.png" alt="logo" />
-                <h4 className="text-2xl font-Nunito font-bold text-green-400 hover:text-green-500 p-3">GitHub Repository</h4>
+                <h4 className="text-2xl font-Nunito font-bold text-blue-400 hover:text-blue-500 p-3">GitHub Repository</h4>
               </a>
 
             </div>

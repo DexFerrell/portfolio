@@ -5,7 +5,7 @@ import Footer from "./sections/Footer"
 import Hero from "./sections/Hero"
 import Projects from "./sections/Projects"
 const App =() => (
-  <main className="relative pt-5 bg-gray-500 ">
+  <main className="relative pt-5 bg-gradient-to-tl from-gray-300 to-black">
     <Nav />
     <section className="padding">
       <Hero />

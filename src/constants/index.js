@@ -6,6 +6,7 @@ export const navLinks = [
 ];
 
 export const languages = [
+  {language: "JavaScript"},
   {language: "React.js"},
   {language: "Node.js"},
   {language: "Next.js"},
@@ -14,7 +15,7 @@ export const languages = [
   {language: "MongoDB"},
   {language: "SupaBase/SQL"},
   {language: "TypeScript"},
-  {language: "JavaScript"},
+  {language: "Angular"},
   
 ];
 
@@ -41,9 +42,9 @@ export const stats = [
 ]
 
 export const projects = [
-  {title:"Landing Page", description:"The following is a landing page for a hypothetical sneaker shopping site. It was developed with javaScript, React, and Tailwind. A key feature of this app is an image selector that displays a selected image based on user interaction. Using React to render the correct image upon clicks. Tailwind is used throught the project and allowed me to develop on of my most in depth footers yet.", image:"dexKicks1.JPG", link:"https://github.com/DexFerrell/Tailwnd-react-base.git"},
+  {title:"Landing Page", description:"The following is a landing page for a hypothetical sneaker shopping site. It was developed with javaScript, React, and Tailwind. A key feature of this app is an image selector that displays a selected image based on user interaction. Using React to render the correct image upon clicks. Tailwind is used throught the project and allowed me to develop one of my most in depth footers yet.", image:"dexKicks1.JPG", link:"https://github.com/DexFerrell/Tailwnd-react-base.git"},
 
   {title:"RooLand", description:"RooLand is an excercise project developed almost completely in vanilla JS to push myself and reinforce my fundamentals. It is a full-stack MVC model application using NodeJS, express, supabase for a database, and EJS. It includes a hardcoded carousel on the home page, with many back-end functions on the item page. The item page allows a user to create 'todo' items and store that item in the data base. the get request upon page load retrieves the items from the data base and renders them to the DOM using EJS. There is also an update feature that populates a field and updates the database upon submission." , image:"rooland1.JPG", link:"https://github.com/DexFerrell/supabase-MVC-template.git"},
 
-  {title:"This Website!!!", description:"This website was coded and designed from scratch by yours-truly. All design choices are my own... unless you dont like them. If thats the case then forget I said anything : ). If you would like to see more of my work, my github is linked in the nav section!", image:"https://steamuserimages-a.akamaihd.net/ugc/1631947648964785474/81CBA15178466DD47195A239232202E78987B714/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true", link:"https://github.com/DexFerrell/portfolio.git"},
+  {title:"This Website!!!", description:"This website was coded and designed in December 2023 by yours truly. It is  a fully responsive website. I originally had a hamburger menu (made with react  and tailwind) for mobile  devices but because its a short, one-page website I decided to remove it.  If you would like to see more of my work and the repository for this portfolio website, my github is linked below!", image:"https://steamuserimages-a.akamaihd.net/ugc/1631947648964785474/81CBA15178466DD47195A239232202E78987B714/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true", link:"https://github.com/DexFerrell/portfolio.git"},
 ]
