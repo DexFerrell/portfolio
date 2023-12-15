@@ -48,3 +48,4 @@ export const projects = [
 
   {title:"This Website!!!", description:"This website was coded and designed in December 2023 by yours truly. It is  a fully responsive website. I originally had a hamburger menu (made with react  and tailwind) for mobile  devices but because its a short, one-page website I decided to remove it.  If you would like to see more of my work and the repository for this portfolio website, my github is linked below!", image:"https://steamuserimages-a.akamaihd.net/ugc/1631947648964785474/81CBA15178466DD47195A239232202E78987B714/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true", link:"https://github.com/DexFerrell/portfolio.git"},
 ]
+
